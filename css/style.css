@@ -633,7 +633,7 @@ body{
     font-weight: 400;
     letter-spacing: normal;
     line-height: 1.67; 
-    background: linear-gradient(to bottom, rgb(119 133 135 / 12%) 50%, rgb(119 133 135 / 12%) 50%, #ffffff 70%);
+    /* background: linear-gradient(to bottom, rgb(119 133 135 / 12%) 50%, rgb(119 133 135 / 12%) 50%, #ffffff 70%); */
 }
 a{
     color: var(--color-dark-1);
