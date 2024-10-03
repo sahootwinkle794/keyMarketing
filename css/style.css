@@ -251,6 +251,18 @@ body{
   }
   
 /* about section style end */
+
+/* ceo msg section start  */
+#ceomessage{
+    margin-top: 80px;
+    background-color: #1465B6;
+    color: white;
+}
+.ceo-head{
+    color: white !important;
+}
+
+/* ceo msg section end  */
 iframe{
     border: none;
 }
