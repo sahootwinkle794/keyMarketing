@@ -18,10 +18,10 @@
     --font-alt: 'DM Sans', sans-serif;
     --font-serif: Georgia, 'Times New Roman', Times, serif;
     --full-wrapper-margin-x: 30px;
-    --container-width: 1350px;
+    /* --container-width: 1350px; */
     --section-padding-y: 120px;
-    --menu-bar-height: 100px;
-    --menu-bar-height-scrolled: 90px;
+    --menu-bar-height: 80px;
+    --menu-bar-height-scrolled: 60px;
     --color-dark-1: #778587;
     --color-dark-2: #171717;
     --color-dark-3: #272727;
@@ -96,6 +96,10 @@ body {
 }
 
 /* navbar item hover effect start  */
+.navbar{
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
 .navbar .navbar-nav .nav-item {
     position: relative;
 }
@@ -319,8 +323,12 @@ body {
 #portfolio h2{
     color: white;
 }
-
-
+.carousel-item {
+    height: 400px;
+}
+.work-img{
+    width: 100% !important;
+}
 /* portfolio section end  */
 
 /* team section start  */
@@ -346,6 +354,9 @@ body {
 }
 .profile-card header p{
     color: #03a9f4;
+}
+aside.profile-card.logo-item {
+    background-color: white;
 }
 
 
@@ -962,10 +973,7 @@ video {
     margin: 0 var(--full-wrapper-margin-x);
 }
 
-.container {
-    /* max-width: var(--container-width);
-    padding: 0 30px; */
-}
+
 
 .row:not(.g-0, .g-1, .g-2, .g-3, .g-4, .g-5,
     .gx-0, .gx-1, .gx-2, .gx-3, .gx-4, .gx-5,
@@ -4427,7 +4435,7 @@ html:not(.mobile) .wow-p {
 .nav-logo-wrap .logo {
     display: flex;
     align-items: center;
-    max-width: 188px;
+    max-width: 140px;
     height: var(--menu-bar-height);
     transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000);
 }
@@ -10305,7 +10313,7 @@ a.portfolio-5-link:hover .portfolio-5-title span {
     border-radius: 10px;
     width: 100%;
     float: left;
-    background-color: #ffffff;
+    background-color: #1465B6;
 }
 
 .logo-item:hover {
