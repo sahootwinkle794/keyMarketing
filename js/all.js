@@ -791,7 +791,7 @@
      --------------------------------------------- */   
      
     function init_split_section(){
-        var split_column_padding = ( $(window).width() - $(".container").first().width()) / 2;
+        var split_column_padding = ( $(window).width() - $(".container").first().width()) / 4;
         $(".split-column-left").css("padding-left", split_column_padding + "px");
         $(".split-column-right").css("padding-right", split_column_padding + "px");
     }
@@ -1099,7 +1099,7 @@ function init_page_sliders(){
         $(".small-item-carousel").owlCarousel({
             autoPlay: 5000,
             stopOnHover: false,
-            items: 5,
+            items: 4,
             itemsDesktop: [1199, 4],
             itemsTabletSmall: [768, 3],
             itemsMobile: [480, 2],
