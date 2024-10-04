@@ -364,7 +364,7 @@ body {
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
     border-radius: 3px;
-    height: 270px;
+    height: 320px;
     margin: 20px auto;
     width: 320px;
     overflow: hidden;
@@ -381,7 +381,7 @@ body {
 .profile-card header {
     background: #03a9f4;
     padding: 1px;
-    height: 8px;
+    height: 1px;
     -webkit-transition: all 0.5s;
     -moz-transition: all 0.5s;
     -o-transition: all 0.5s;
@@ -390,7 +390,7 @@ body {
 
 .profile-card header img {
     border: 1px solid #778587;
-    border-radius: 50%;
+    border-radius: 10%;
     display: block;
     margin: 10px auto;
     width: 150px;
@@ -506,10 +506,10 @@ body {
 /*  CHANGES  ON HOVER  */
 
 .profile-card:hover {
-    height: 420px;
+    height: 470px;
 }
 .profile-card:hover header {
-    height: 250px;
+    height: 290px;
 }
 
 .profile-card:hover header .team_name,
@@ -532,6 +532,29 @@ body {
 
 /* team card style end  */
 /* team section end  */
+/* contact us section start  */
+
+.parallax {
+    /* The image used */
+    background-image: url("../images/contactus/contact.jpg");
+  
+    /* Set a specific height */
+    min-height: 300px; 
+    width: 100%;
+    color: white;
+    font-size: 50px;
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center; 
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+
+/* contact us section end  */
 iframe {
     border: none;
 }
