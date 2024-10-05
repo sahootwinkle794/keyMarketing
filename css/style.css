@@ -392,7 +392,10 @@ p:last-child {
 .work-img {
     width: 100% !important;
 }
-
+.work-btn a{
+    background-color: #1465B6 !important;
+    color: white !important;
+}
 /* portfolio section end  */
 
 /* team section start  */
@@ -4559,6 +4562,8 @@ a.logo:hover {
 
 .small-height {
     height: var(--menu-bar-height-scrolled) !important;
+    /* background: #1465B6;
+    color: white !important; */
 }
 
 .main-nav-sub {
