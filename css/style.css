@@ -149,114 +149,119 @@ body {
 
 /* navbar item hover effect end  */
 /* about section style start  */
-
-.postcard {
-    flex-wrap: wrap;
-    display: flex;
-    box-shadow: 0 4px 21px -12px #1465B6;
-    border-radius: 10px;
-    margin: 0 0 2rem 0;
-    overflow: hidden;
+.whitebg {
+    background: #FFFFFF;
+}
+.pad-40 {
+    padding: 90px 0px;
+}
+.common_div {
+    width: 100%;
+    display: block;
+    clear: both;
     position: relative;
-    color: #778587;
-    height: 420px;
-
-    .postcard__img {
-        max-height: 180px;
-        width: 100%;
-        object-fit: cover;
-        position: relative;
-    }
-
-    .postcard__img_link {
-        display: contents;
-    }
-
-    .postcard__bar {
-        width: 50px;
-        height: 10px;
-        margin: 10px 0;
-        border-radius: 5px;
-        background-color: #778587;
-        transition: width 0.2s ease;
-    }
-
-    .postcard__text {
-        padding: 30px;
-        position: relative;
-        display: flex;
-        flex-direction: column;
-    }
-
-    .postcard__preview-txt {
-        overflow: hidden;
-        text-overflow: ellipsis;
-        text-align: justify;
-        height: 100%;
-    }
-
-    &:hover .postcard__bar {
-        width: 100px;
-        background-color: #1465B6;
-    }
-
-    &:hover .postcard__text {
-        color: #1465B6;
-    }
 }
-
-@media screen and (min-width: 769px) {
-    .postcard {
-        flex-wrap: inherit;
-
-        .postcard__title {
-            font-size: 2rem;
-        }
-
-        .postcard__tagbox {
-            justify-content: start;
-        }
-
-        .postcard__img {
-            max-width: 300px;
-            max-height: 100%;
-            transition: transform 0.3s ease;
-        }
-
-        .postcard__text {
-            padding: 30px;
-            width: 100%;
-        }
-
-        &:hover .postcard__img {
-            transform: scale(1.1);
-        }
-
-        &:nth-child(2n+1) {
-            flex-direction: row;
-        }
-
-        &:nth-child(2n+0) {
-            flex-direction: row-reverse;
-        }
-
-        &:nth-child(2n+1) .postcard__text::before {
-            left: -12px !important;
-            transform: rotate(4deg);
-        }
-
-        &:nth-child(2n+0) .postcard__text::before {
-            right: -12px !important;
-            transform: rotate(-4deg);
-        }
-    }
+body {
+    color: #555555;
+    line-height: 1.7;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Quicksand', sans-serif;
+    overflow-x: hidden;
 }
-
-@media screen and (min-width: 1024px) {
-    .postcard__text {
-        padding: 30px;
-    }
-
+.logowho {
+    width: 240px;
+    margin: auto;
+}
+img {
+    max-width: 100%;
+    /* -webkit-transition: 0.4s; */
+    /* -o-transition: 0.4s; */
+    transition: 0.4s;
+}
+.content_div {
+    position: relative;
+    display: block;
+    width: 100%;
+    z-index: 9;
+}
+.heading {
+    display: block;
+    width: 100%;
+    clear: both;
+}
+.heading h3 {
+    display: block;
+    clear: both;
+    font-size: 24px;
+    font-weight: 700;
+    color: #262626;
+    text-transform: capitalize;
+    position: relative;
+    padding-bottom: 0px;
+    margin-bottom: 18px;
+    line-height: 30px;
+}
+.heading h3:before {
+    position: absolute;
+    content: '';
+    left: 0px;
+    height: 0;
+    width: 70px;
+    background-color: #262626;
+    bottom: 0px;
+    margin: 0px;
+}
+.content_div.left p {
+    text-align: justify;
+    text-align-last: left;
+}
+.content_div p {
+    font-size: 16px;
+    font-weight: 500;
+    color: #262626;
+    line-height: 26px;
+    margin-bottom: 15px;
+    display: block;
+}
+.mr-top50 {
+    margin-top: 40px;
+}
+.box-about {
+    width: 100%;
+    display: block;
+    clear: both;
+    position: relative;
+    padding: 30px 15px;
+    text-align: center;
+    box-shadow: 0px 0px 15px #00000014;
+    margin: 30px 0px 0 0;
+    min-height: 415px;
+    border-radius: 4px;
+    border: 1px solid #FFF;
+}
+.box-about img {
+    width: 70px;
+    height: auto;
+    margin: auto 0 15px 0;
+}
+.box-about h3 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #2a2a2a;
+    line-height: 26px;
+    display: block;
+    clear: both;
+    margin: 0 0 15px 0px;
+}
+.box-about p {
+    font-size: 15px;
+    text-align: justify;
+    color: #2a2a2a;
+    font-weight: 400;
+}
+p:last-child {
+    margin-bottom: 0;
 }
 
 /* about section style end */
