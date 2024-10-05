@@ -268,7 +268,7 @@ p:last-child {
 
 /* ceo msg section start  */
 #ceomessage {
-    margin-top: 80px;
+    /* margin-top: 80px; */
     background-color: #1465B6;
     color: white;
 }
@@ -281,8 +281,9 @@ p:last-child {
 /* service section start  */
 
 .card {
+    background-color: #1465B6;
     height: 580px;
-    box-shadow: 0 0 0 1px rgba(#000, .05), 0 20px 50px 0 rgba(#000, .1);
+    box-shadow: 0px 0px 10px #778587;
     border-radius: 15px;
     padding: 10px;
     transition: .15s ease-in;
@@ -298,8 +299,8 @@ p:last-child {
 }
 
 .card:hover {
-    background-color: rgb(0, 153, 255);
-    color: white !important;
+    background-color: rgb(255, 255, 255);
+    color: #000 !important;
 }
 
 .card img {
@@ -314,20 +315,32 @@ p:last-child {
     color: #778587;
     font-weight: bold;
 }
+#services{
+    background-color: #1465B6;
+    color: white;
+    margin-bottom: 50px;
+}
+#services h2{
+    color: white;
+}
+#services h3{
+    color: white;
+}
 
-/* service sectino end */
+
+/* service section end */
 /* portfolio section start  */
 #portfolio {
     margin-top: 3px;
-    background-color: #1465B6;
-    color: white;
+    /* background-color: #1465B6;
+    color: white; */
 }
-#portfolio h3{
+/* #portfolio h3{
     color: white;
 }
 #portfolio h2{
     color: white;
-}
+} */
 .carousel-item {
     height: 400px;
 }
@@ -5252,6 +5265,7 @@ span.mn-soc-link.mn-soc-link-color:hover {
     background-size: cover;
     padding-top: 50px;
     padding-bottom: 50px;
+    margin-top: 50px;
 }
 
 .small-section {
