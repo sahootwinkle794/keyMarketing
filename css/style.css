@@ -738,8 +738,18 @@ label {
     margin-bottom: 15px;
     cursor: pointer;
 }
-
+.pad-misson{
+    margin-bottom: 70px;
+}
 /* contact us section end  */
+/* footer style start  */
+.copy-right{
+    background-color: #1465B6;
+    margin-top: 40px;
+    color: white !important;
+}
+
+/* footer style end */
 iframe {
     border: none;
 }
