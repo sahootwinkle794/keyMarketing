@@ -640,6 +640,104 @@ aside.profile-card.logo-item {
     background-size: cover;
 }
 
+.content_div {
+    position: relative;
+    display: block;
+    width: 100%;
+    z-index: 9;
+}
+.contact_list {
+    padding: 0px;
+    margin: 0px 0px 15px 0px;
+    width: 100%;
+    display: block;
+    clear: both;
+    position: relative;
+}
+.contact_list h3 {
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eaeaea;
+    color: #262626;
+    text-transform: capitalize;
+    font-weight: 700;
+}
+.contact_list ul {
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+}
+.contact_list ul li {
+    padding: 0px 0px 22px 50px;
+    position: relative;
+    display: block;
+    list-style-type: none;
+    margin: 0px;
+    font-weight: 500;
+    line-height: 26px;
+    font-size: 16px;
+    color: #262626;
+}
+.contact_list ul li img {
+    position: absolute;
+    left: 0px;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+}
+.contact_list {
+    padding: 0px;
+    margin: 0px 0px 15px 0px;
+    width: 100%;
+    display: block;
+    clear: both;
+    position: relative;
+}
+.contact_list h3 {
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eaeaea;
+    color: #262626;
+    text-transform: capitalize;
+    font-weight: 700;
+}
+.content_div p {
+    font-size: 16px;
+    font-weight: 500;
+    color: #262626;
+    line-height: 26px;
+    margin-bottom: 15px;
+    display: block;
+}
+.form-group {
+    margin-bottom: 20px;
+}
+label {
+    font-weight: 500;
+    font-size: 15px;
+}
+.red {
+    color: red;
+}
+.form-control {
+    height: 38px;
+    color: #262626;
+    background-color: #FFFFFF;
+}
+.btnsubmit {
+    background: #003b6a;
+    color: #FFFFFF;
+    font-weight: 600;
+    padding: 8px 30px;
+    line-height: 20px;
+    border-radius: 6px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    outline: 0px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
 
 /* contact us section end  */
 iframe {
@@ -993,20 +1091,6 @@ video {
     transition: var(--transition-default);
     -moz-transition: none !important;
     will-change: transform;
-}
-
-.parallax-mousemove-follow {
-    -moz-transition: none !important;
-}
-
-@media not all and (min-resolution:.001dpcm) {
-    @media {
-
-        .parallax-mousemove,
-        .parallax-mousemove-follow {
-            transition: none !important;
-        }
-    }
 }
 
 [data-rellax-x] {
@@ -1943,11 +2027,7 @@ hr.thick {
     transform: translateY(-150%) translateZ(0.001px) skewY(-10deg);
 }
 
-.link-hover-anim:hover .link-strong-hovered {
-    ;
-    opacity: 1;
-    transform: translateY(0) translateZ(0.001px) skewY(0);
-}
+
 
 .light-content .link-strong,
 .light-content .link-hover-anim {
@@ -2810,13 +2890,6 @@ textarea:-webkit-autofill:focus {
     background-color: transparent !important;
 }
 
-.light-content .form select:not([multiple]) {
-    background-color: transparent: !important;
-    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="9px" height="5px"><path fill-rule="evenodd" fill="rgb(255, 255, 255)" d="M8.886,0.631 L8.336,0.117 C8.263,0.049 8.178,0.015 8.083,0.015 C7.988,0.015 7.903,0.049 7.830,0.117 L4.506,3.155 L1.183,0.117 C1.109,0.049 1.025,0.015 0.930,0.015 C0.834,0.015 0.750,0.049 0.677,0.117 L0.127,0.631 C0.053,0.699 0.017,0.778 0.017,0.867 C0.017,0.956 0.053,1.035 0.127,1.103 L4.253,4.892 C4.327,4.960 4.411,4.994 4.506,4.994 C4.602,4.994 4.686,4.960 4.759,4.892 L8.886,1.103 C8.959,1.035 8.996,0.956 8.996,0.867 C8.996,0.778 8.959,0.699 8.886,0.631 L8.886,0.631 Z"/></svg>');
-    background-repeat: no-repeat;
-    background-position: right 8px center;
-    background-size: 9px 5px;
-}
 
 .light-content .form select option {
     background: var(--color-dark-1);
