@@ -479,7 +479,9 @@ img.wow.scaleOutIn.box_shadow_custom.animated {
     background-repeat: no-repeat;
     background-size: cover;
 }
-
+textarea.form-control{
+    height: auto !important;
+}
 .content_div {
     position: relative;
     display: block;
