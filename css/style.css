@@ -14,9 +14,9 @@
    ============================== */
 
 :root {
-    --font-global: 'DM Sans', sans-serif;
+    --font-global: 'Quicksand', sans-serif;
     --font-alt: 'DM Sans', sans-serif;
-    --font-serif: Georgia, 'Times New Roman', Times, serif;
+    --font-serif: 'Quicksand', sans-serif;
     --full-wrapper-margin-x: 30px;
     /* --container-width: 1350px; */
     --section-padding-y: 120px;
@@ -88,11 +88,13 @@ html {
 }
 
 body {
+    color: #555555;
+    line-height: 1.7;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Quicksand', sans-serif;
     overflow-x: hidden;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    text-rendering: optimizeLegibility;
-    font-family: "DM Sans", sans-serif !important;
+    
 }
 
 /* navbar item hover effect start  */
@@ -318,7 +320,7 @@ img.wow.scaleOutIn.box_shadow_custom.animated {
 .serv-card {
     background-color: #1465B6;
     height: 300px;
-    box-shadow: 0px 0px 10px #778587;
+    box-shadow: 0px 0px 5px #ffffff;
     border-radius: 20px;
     padding: 10px;
     transition: .15s ease-in;
@@ -467,7 +469,7 @@ img.wow.scaleOutIn.box_shadow_custom.animated {
     /* Set a specific height */
     min-height: 300px;
     width: 100%;
-    color: white;
+    color: black;
     font-size: 50px;
     display: flex;
     justify-content: center;
@@ -478,6 +480,14 @@ img.wow.scaleOutIn.box_shadow_custom.animated {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+.parallax span{
+    color: #262626;
+    font-family: 'Quicksand', sans-serif !important;
+    font-weight: 600;
+    font-size: 46px;
+    text-transform: capitalize;
+    letter-spacing: 0.3px;
 }
 textarea.form-control{
     height: auto !important;
@@ -1161,12 +1171,12 @@ video {
    ============================== */
 
 body {
-    color: var(--color-dark-1);
-    font-size: 18px;
+    color: #555555;
+    line-height: 1.7;
+    font-size: 16px;
     font-weight: 400;
-    letter-spacing: normal;
-    line-height: 1.67;
-    /* background: linear-gradient(to bottom, rgb(119 133 135 / 12%) 50%, rgb(119 133 135 / 12%) 50%, #ffffff 70%); */
+    font-family: 'Quicksand', sans-serif;
+    overflow-x: hidden;
 }
 
 a {
@@ -1332,6 +1342,7 @@ h6,
     margin-bottom: 1em;
     font-weight: 500;
     line-height: 1.2;
+    font-family: 'Quicksand', sans-serif;
 }
 
 h1,
@@ -1339,6 +1350,7 @@ h1,
     margin-bottom: 0.5em;
     font-size: 42px;
     letter-spacing: -0.04em;
+    font-family: 'Quicksand', sans-serif;
 }
 
 h2,
@@ -1346,6 +1358,7 @@ h2,
     margin-bottom: 0.5em;
     font-size: 36px;
     letter-spacing: -0.03em;
+    font-family: 'Quicksand', sans-serif;
 }
 
 h3,
@@ -1353,22 +1366,26 @@ h3,
     margin-bottom: 0.7em;
     font-size: 28px;
     letter-spacing: -0.03em;
+    font-family: 'Quicksand', sans-serif;
 }
 
 h4,
 .h4 {
     font-size: 24px;
+    font-family: 'Quicksand', sans-serif;
 }
 
 h5,
 .h5 {
     font-size: 20px;
+    font-family: 'Quicksand', sans-serif;
 }
 
 h6,
 .h6 {
     font-size: 16px;
     font-weight: 700;
+    font-family: 'Quicksand', sans-serif;
 }
 
 p {
@@ -5839,12 +5856,12 @@ span.mn-soc-link.mn-soc-link-color:hover {
 }
 
 .section-title {
-    font-size: 56px;
-    font-weight: bold;
+    font-size: 40px;
     line-height: 1.107;
-    letter-spacing: -0.03em;
+    letter-spacing: 2px;
+    font-weight: 600;
     color: #1465b6;
-    font-family: "Roboto Slab", serif;
+    font-family: 'Quicksand', sans-serif;
 }
 
 .section-title-tiny {
@@ -14224,7 +14241,7 @@ html:not(.mobile) .owl-animate-fadeInDown {
     right: 3px;
     transform: translateY(-50%);
     color: var(--color-dark-1);
-    font-family: 'icons' !important;
+    font-family: 'Quicksand', sans-serif;
     font-size: 22px;
     text-align: center;
     transition: var(--transition-default);
@@ -14298,7 +14315,7 @@ html:not(.mobile) .owl-animate-fadeInDown {
     right: 3px;
     transform: translateY(-50%);
     color: var(--color-dark-1);
-    font-family: 'icons' !important;
+    font-family: 'Quicksand', sans-serif;
     font-size: 22px;
     text-align: center;
     transition: var(--transition-default);
