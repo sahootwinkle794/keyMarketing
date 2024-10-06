@@ -291,7 +291,9 @@ p:last-child {
     background-color: #1465B6;
     color: white;
 }
-
+#ceomessage p{
+    text-align: justify;
+}
 .ceo-head {
     color: white !important;
 }
@@ -460,7 +462,7 @@ img.wow.scaleOutIn.box_shadow_custom.animated {
 
 .parallax {
     /* The image used */
-    background-image: url("../images/contactus/contact.jpg");
+    background-image: url("../images/contactus/contact.jpeg");
 
     /* Set a specific height */
     min-height: 300px;
