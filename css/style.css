@@ -725,7 +725,7 @@ label {
     background-color: #FFFFFF;
 }
 .btnsubmit {
-    background: #003b6a;
+    background: #1465B6;
     color: #FFFFFF;
     font-weight: 600;
     padding: 8px 30px;
@@ -738,7 +738,7 @@ label {
     margin-bottom: 15px;
     cursor: pointer;
 }
-.pad-misson{
+.con-margin{
     margin-bottom: 70px;
 }
 /* contact us section end  */
@@ -1102,6 +1102,20 @@ video {
     -moz-transition: none !important;
     will-change: transform;
 }
+
+.parallax-mousemove-follow {
+    -moz-transition: none !important;
+}
+@media not all and (min-resolution:.001dpcm) {
+    @media {
+        .parallax-mousemove,
+        .parallax-mousemove-follow {
+            transition: none !important;
+        }
+    }
+}
+
+
 
 [data-rellax-x] {
     transition: transform 0.25s var(--ease-out-short);
