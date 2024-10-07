@@ -97,6 +97,7 @@ body {
     
 }
 
+
 /* navbar item hover effect start  */
 .navbar {
     padding-top: 0 !important;
@@ -166,6 +167,7 @@ body {
     display: block;
     clear: both;
     position: relative;
+    margin-bottom: 90px;
 }
 
 body {
@@ -178,7 +180,7 @@ body {
 }
 
 .logowho {
-    width: 240px;
+    width: 230px;
     margin: auto;
 }
 
@@ -319,10 +321,9 @@ img.wow.scaleOutIn.box_shadow_custom.animated {
 
 .serv-card {
     background-color: #1465B6;
-    height: 330px;
+    height: 285px;
     box-shadow: 0px 0px 5px #ffffff;
     border-radius: 20px;
-    padding: 10px;
     transition: .15s ease-in;
 
     &:hover,
@@ -333,7 +334,7 @@ img.wow.scaleOutIn.box_shadow_custom.animated {
 }
 
 .card-row2 {
-    height: 300px;
+    height: 260px;
 }
 
 /* .card:hover {
@@ -365,7 +366,7 @@ img.wow.scaleOutIn.box_shadow_custom.animated {
     background-color: #1465B6;
     color: white;
     margin-bottom: 50px;
-    margin-top: 80px;
+    /* margin-top: 80px; */
 }
 
 #services h2 {
@@ -1339,7 +1340,7 @@ h6,
 .h4,
 .h5,
 .h6 {
-    margin-bottom: 1em;
+    margin-bottom: 10px;
     font-weight: 500;
     line-height: 1.2;
     font-family: 'Quicksand', sans-serif;
@@ -1377,7 +1378,8 @@ h4,
 
 h5,
 .h5 {
-    font-size: 20px;
+    font-size: 18px;
+    font-weight: bold;
     font-family: 'Quicksand', sans-serif;
 }
 
@@ -5296,9 +5298,9 @@ span.mn-soc-link.mn-soc-link-color:hover {
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    margin-top: 20px;
+    padding: 50px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .small-section {
@@ -5856,7 +5858,7 @@ span.mn-soc-link.mn-soc-link-color:hover {
 }
 
 .section-title {
-    font-size: 40px;
+    font-size: 35px;
     line-height: 1.107;
     letter-spacing: 2px;
     font-weight: 600;
