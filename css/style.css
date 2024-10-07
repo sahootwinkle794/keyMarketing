@@ -2100,13 +2100,13 @@ a.btn-mod:focus {
 }
 
 .btn-mod.btn-w {
-    color: var(--color-dark-1);
+    color: #262626;
     background: #fff;
 }
 
 .btn-mod.btn-w:hover,
 .btn-mod.btn-w:focus {
-    color: var(--color-dark-1);
+    color: #262626;
     background: rgba(255, 255, 255, 1);
 }
 
@@ -13061,10 +13061,24 @@ a.blog-item-more:hover {
 
 .small-item-carousel.owl-carousel .owl-prev {
     left: -55px;
+    background-color: gray;
+    color: white;
+    border-radius: 5px;
+    font-size: 20px;
+    padding-left: 0;
+    width: 20px;
+    height: 20px;
 }
 
 .small-item-carousel.owl-carousel .owl-next {
     right: -55px;
+    background-color: gray;
+    color: white;
+    border-radius: 5px;
+    font-size: 20px;
+    padding-left: 0;
+    width: 20px;
+    height: 20px;
 }
 
 /* Work slider & sontent slider */
