@@ -287,7 +287,7 @@ p:last-child {
     margin-bottom: 0;
 }
 .about-con{
-    padding: 100px;
+    padding: 80px 100px 80px 100px;
 }
 /* about section style end */
 
@@ -304,7 +304,7 @@ p:last-child {
     color: white !important;
 }
 .ceo-con{
-    padding: 100px;
+    padding: 80px 100px 80px 100px;
 }
 
 /* ceo msg section end  */
@@ -367,6 +367,10 @@ img.wow.scaleOutIn.box_shadow_custom.animated {
     font-weight: bold;
 }
 
+.serv-con{
+    padding-top: 80px !important;
+    padding-bottom: 80px !important;
+}
 #services {
     background-color: #1465B6;
     color: white;
@@ -491,7 +495,7 @@ span.carousel-control-next-icon{
     border-top-right-radius: 20px;
 }
 .team-con{
-    padding: 100px;
+    padding: 0px 100px 0px 100px;
 }
 
 /* team section end  */

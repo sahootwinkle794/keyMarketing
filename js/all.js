@@ -1099,7 +1099,7 @@ function init_page_sliders(){
         $(".small-item-carousel").owlCarousel({
             autoPlay: 5000,
             stopOnHover: false,
-            items: 4,
+            items: 5,
             itemsDesktop: [1199, 4],
             itemsTabletSmall: [768, 3],
             itemsMobile: [480, 2],
