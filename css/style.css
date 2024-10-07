@@ -428,13 +428,14 @@ span.carousel-control-next-icon{
 
 .port-text {
     padding-right: 80px !important;
-    margin-top: 20px !important;
+    margin-top: 50px !important;
 }
 
 .port-bg {
     background-color: #1465B6;
     color: white !important;
     border-radius: 20px !important;
+    height: 530px;
 }
 
 .work-btn a {
