@@ -482,6 +482,7 @@ span.carousel-control-next-icon{
 }
 
 /* team section end  */
+
 /* contact us section start  */
 
 .parallax {
@@ -4547,7 +4548,6 @@ a.logo:hover {
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.025), 0px 1px 1px 0px rgba(0, 0, 0, 0.01), 0px 0px 50px 0px rgba(0, 0, 0, 0.07);
     z-index: 1030;
     transition: all 0.2s var(--ease-default);
-    background-color: #fff;
 }
 
 .main-nav.sticky {
@@ -14843,7 +14843,7 @@ html:not(.mobile) .owl-animate-fadeInDown {
 }
 
 .top-nav {
-    box-shadow: 0px 2px 30px 0px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 2px 30px 0px rgb(0 0 0 / 43%);
 }
 
 .top-nav ul li a:hover {
