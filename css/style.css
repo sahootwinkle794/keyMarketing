@@ -286,7 +286,9 @@ img {
 p:last-child {
     margin-bottom: 0;
 }
-
+.about-con{
+    padding: 100px;
+}
 /* about section style end */
 
 /* ceo msg section start  */
@@ -300,6 +302,9 @@ p:last-child {
 }
 .ceo-head {
     color: white !important;
+}
+.ceo-con{
+    padding: 100px;
 }
 
 /* ceo msg section end  */
@@ -480,8 +485,18 @@ span.carousel-control-next-icon{
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
+.team-con{
+    padding: 100px;
+}
 
 /* team section end  */
+/* client section start  */
+.client-con{
+    padding: 100px;
+}
+
+
+/* client section end  */
 
 /* contact us section start  */
 
