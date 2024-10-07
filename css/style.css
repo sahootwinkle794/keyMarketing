@@ -255,7 +255,7 @@ img {
     text-align: center;
     box-shadow: 0px 0px 15px #00000024;
     margin: 30px 0px 0 0;
-    height: 360px;
+    height: 410px;
     border-radius: 20px;
     border: 1px solid #FFF;
 }
@@ -277,7 +277,7 @@ img {
 }
 
 .box-about p {
-    font-size: 15px;
+    font-size: 17px;
     text-align: justify;
     color: #7A7A7A;
     font-weight: 500;
@@ -299,6 +299,7 @@ p:last-child {
 }
 #ceomessage p{
     text-align: justify;
+    font-size: 17px;
 }
 .ceo-head {
     color: white !important;
@@ -612,7 +613,7 @@ textarea.form-control{
 }
 
 .content_div p {
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 500;
     color: #7A7A7A;
     line-height: 26px;
@@ -5914,7 +5915,7 @@ a.logo:hover {
 }
 
 .section-title {
-    font-size: 35px;
+    font-size: 37px;
     line-height: 1.107;
     letter-spacing: 2px;
     font-weight: 600;
