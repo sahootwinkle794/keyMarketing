@@ -467,6 +467,7 @@ span.carousel-control-next-icon{
 
 #team h5 {
     color: #03a9f4;
+    font-size: 20px;
 }
 #team h3 {
     color: white;
@@ -474,6 +475,7 @@ span.carousel-control-next-icon{
 
 #team p {
     color: #03a9f4;
+    font-size: 18px;
 }
 
 .team-card {
