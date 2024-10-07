@@ -398,9 +398,29 @@ img.wow.scaleOutIn.box_shadow_custom.animated {
 
 .work-img {
     width: 100% !important;
+    height: 100% !important;
+    object-fit: cover !important;
 
 }
-
+#myCarousel .port-img-con{
+    padding-left: 0 !important;
+    overflow: hidden !important;
+    display: flex !important;
+}
+span.carousel-control-prev-icon {
+    background-color: #7A7A7A;
+    border-radius: 5px;
+    padding: 20px;
+}
+span.carousel-control-next-icon{
+    background-color: #7A7A7A;
+    border-radius: 5px;
+    padding: 20px;
+}
+#myCarousel  .port-inner{
+    padding-left: 110px !important;
+    padding-right: 110px !important;
+}
 #myCarousel p {
     font-size: 15px;
     text-align: justify;
