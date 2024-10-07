@@ -508,7 +508,10 @@ span.carousel-control-next-icon{
 /* client section end  */
 
 /* contact us section start  */
-
+.touch-con{
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
 .parallax {
     /* The image used */
     background-image: url("../images/contactus/contact.jpg");
@@ -3245,15 +3248,15 @@ textarea:-webkit-autofill:focus {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    height: 630px;
+    height: 698px;
 }
 
 .home-section video {
-    height: 630px;
+    height: 698px;
 }
 
 .home-section .bg-dark-alpha-50:before {
-    height: 630px;
+    height: 698px;
 }
 
 .home-content {
@@ -5189,8 +5192,11 @@ a.logo:hover {
 }
 
 .main-nav.dark .mobile-nav {
-    background-color: transparent;
+    background-color: #1465b6;
     border-color: transparent;
+    border-radius: 5px;
+    height: 50px;
+    margin-top: 10px;
 }
 
 .main-nav.dark .mobile-nav-icon,
