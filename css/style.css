@@ -255,11 +255,11 @@ img {
     text-align: center;
     box-shadow: 0px 0px 15px #00000024;
     margin: 30px 0px 0 0;
-    min-height: 350px;
+    height: 360px;
     border-radius: 20px;
     border: 1px solid #FFF;
 }
-
+.box-about:hover{border: 1px solid #FFF;box-shadow: none;}
 .box-about img {
     width: 70px;
     height: auto;
@@ -380,6 +380,9 @@ img.wow.scaleOutIn.box_shadow_custom.animated {
 
 #services h3 {
     color: white;
+}
+#services h5{
+    font-size: 20px !important;
 }
 
 
