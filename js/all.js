@@ -1102,7 +1102,7 @@ function init_page_sliders(){
             items: 5,
             itemsDesktop: [1199, 4],
             itemsTabletSmall: [768, 3],
-            itemsMobile: [480, 2],
+            itemsMobile: [480, 1],
             pagination: false,
             navigation: true,
             lazyLoad: true,
