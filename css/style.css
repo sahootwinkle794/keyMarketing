@@ -4594,10 +4594,15 @@ a.logo:hover {
 
 .small-height {
     height: var(--menu-bar-height-scrolled) !important;
-    /* background: #1465B6;
-    color: white !important; */
+    background-color: #1465B6;
+    /* filter: brightness(0) invert(1);width: 250px; */
 }
-
+.small-height .logo-white{
+    filter: brightness(0) invert(1);width: 250px;
+}
+.small-height a{
+    color: white !important;
+}
 .main-nav-sub {
     flex-grow: 1;
     display: flex;
