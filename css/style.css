@@ -535,7 +535,7 @@ span.carousel-control-next-icon {
 }
 
 .team-con {
-    padding: 20px 100px 20px 100px;
+    padding: 20px 170px 20px 170px;
 }
 
 .team-body {
@@ -559,7 +559,7 @@ span.carousel-control-next-icon {
 
 .parallax {
     /* The image used */
-    background-image: url("../images/contactus/contact.jpg");
+    background-image: url("../images/contactus/contact.png");
 
     /* Set a specific height */
     min-height: 300px;
