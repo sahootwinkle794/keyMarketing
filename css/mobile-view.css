@@ -16,6 +16,35 @@
     .client-con{
         padding: 0px !important;
     }
+    #myCarousel .port-inner{
+        padding: 0px !important;
+    }
+    .port-text{
+        padding-top: 10px !important;
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+        margin: 0px !important;
+    }
+    .port-text h4{
+        font-size: 20px !important;
+    }
+    .port-text p{
+        font-size: 14px !important;
+    }
+    .page-section{
+        padding: 0px !important;
+    }
+    .port-con{
+        padding: 0px !important;
+    }
+    span.carousel-control-next-icon{
+        padding: 0px !important;
+        margin-bottom: 60px;
+    }
+    span.carousel-control-prev-icon{
+        padding: 0px !important;
+        margin-bottom: 60px;
+    }
  }
 
 /* `md` applies to small devices (landscape phones, less than 768px) */
