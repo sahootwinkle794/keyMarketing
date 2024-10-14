@@ -331,6 +331,16 @@ p:last-child {
     padding: 40px !important;
 }
 
+.logo-card:hover{
+    box-shadow: 0px 0px 30px #1465b6;
+    transition: .15s ease-in;
+
+    &:hover,
+    &:focus-within {
+        transform: translatey(-5px);
+    }
+}
+
 /* about section style end */
 
 /* ceo msg section start  */
@@ -574,6 +584,23 @@ span.carousel-control-next-icon {
 /* client section end  */
 
 /* contact us section start  */
+.cont-card{
+    border-radius: 10px !important;
+    /* width: 510px; */
+    padding: 13px;
+    padding-left: 30px;
+    padding-right: 30px;
+    box-shadow: 0px 0px 9px #a3a3a3;
+}
+.cont-card:hover{
+    box-shadow: 0px 0px 30px #1465b6;
+    transition: .15s ease-in;
+
+    &:hover,
+    &:focus-within {
+        transform: translatey(-5px);
+    }
+}
 .touch-con {
     padding-left: 0px !important;
     padding-right: 0px !important;
@@ -10517,7 +10544,7 @@ a.portfolio-5-link:hover .portfolio-5-title span {
     background-color: #1465B6;
 }
 
-.logo-item:hover {
+/* .logo-item:hover {
     opacity: 1;
 
     box-shadow: 0px 0px 30px #1465b6;
@@ -10527,7 +10554,7 @@ a.portfolio-5-link:hover .portfolio-5-title span {
     &:focus-within {
         transform: translatey(-5px);
     }
-}
+} */
 
 .logo-item img {
     width: 200px;
