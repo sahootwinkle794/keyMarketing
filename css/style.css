@@ -382,7 +382,7 @@ img.wow.scaleOutIn.box_shadow_custom.animated {
 
 .serv-card {
     background-color: #1465B6;
-    height: 325px;
+    height: 250px;
     border: 1px solid white;
     border-radius: 20px;
     transition: .15s ease-in;
@@ -395,7 +395,7 @@ img.wow.scaleOutIn.box_shadow_custom.animated {
 }
 
 .card-row2 {
-    height: 300px;
+    height: 250px;
 }
 
 /* .card:hover {
