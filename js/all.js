@@ -1155,7 +1155,7 @@ function init_page_sliders(){
         // Team carousel
         $(".team-carousel").owlCarousel({
             slideSpeed: 375,
-            items: 2,
+            items: 4,
             itemsDesktop: [1199, 2],
             itemsDesktopSmall: [1199, 2],
             itemsTabletSmall: [768, 2],
