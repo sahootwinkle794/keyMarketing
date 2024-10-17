@@ -640,7 +640,10 @@ span.carousel-control-next-icon {
     color: white;
     text-align: center;
 }
-
+.commit-con{
+    padding-left: 100px;
+    padding-right: 100px;
+}
 /* commitment section end  */
 /* contact us section start  */
 .cont-card{
@@ -833,10 +836,14 @@ label {
 /* contact us section end  */
 /* footer style start  */
 .copy-right {
-    background-color: #1465B6;
+    /* background-color: #1465B6; */
     margin-top: 40px;
-    color: white !important;
+    color: black !important;
 }
+.copy-right p{
+    font-weight: bold;
+}
+
 
 /* footer style end */
 iframe {
