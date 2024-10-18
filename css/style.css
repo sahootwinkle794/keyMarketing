@@ -563,10 +563,12 @@ span.carousel-control-next-icon {
   }
   .flip-card-back p{
     font-size: 15px !important;
+    margin-top: 20px;
     margin-bottom: 20px !important;
     font-weight: 600;
     display: flex !important;
     text-align: justify !important;
+    color: #7A7A7A;
 
   }
 /* team card flip style end  */
@@ -839,7 +841,6 @@ label {
 .copy-right {
     /* background-color: #1465B6; */
     margin-top: 40px;
-    color: black !important;
 }
 .copy-right p{
     font-weight: bold;
