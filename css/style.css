@@ -571,6 +571,9 @@ span.carousel-control-next-icon {
     color: #7A7A7A;
 
   }
+  .flip-card-back h6{
+    font-size: 18px;
+  }
 /* team card flip style end  */
 .team_sec .owl-carousel .owl-wrapper-outer{
     margin-top: 0;
@@ -601,8 +604,9 @@ span.carousel-control-next-icon {
 }
 
 #team h6 {
-    color: rgb(38, 38, 38);
-    font-size: 16px;
+    color: #7A7A7A;
+    font-size: 17px;
+    font-weight: bold;
 }
 
 .team-card {
@@ -618,7 +622,8 @@ span.carousel-control-next-icon {
 }
 
 .team-con {
-    padding: 20px 170px 20px 170px;
+    /* padding: 20px 170px 20px 170px; */
+    padding: 100px;
 }
 
 .team-body {
@@ -841,9 +846,6 @@ label {
 .copy-right {
     /* background-color: #1465B6; */
     margin-top: 40px;
-}
-.copy-right p{
-    font-weight: bold;
 }
 
 
