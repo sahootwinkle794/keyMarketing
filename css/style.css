@@ -671,6 +671,19 @@ span.carousel-control-next-icon {
         transform: translatey(-5px);
     }
 }
+.map-card{
+    border-radius: 10px !important;
+    box-shadow: 0px 0px 9px #a3a3a3;
+}
+.map-card:hover{
+    box-shadow: 0px 0px 30px #1465b6;
+    transition: .15s ease-in;
+
+    &:hover,
+    &:focus-within {
+        transform: translatey(-5px);
+    }
+}
 .touch-con {
     padding-left: 0px !important;
     padding-right: 0px !important;
@@ -841,6 +854,33 @@ label {
     padding-top: 50px;
 }
 
+/* whats app btn start  */
+.whatsapp-button {
+    background-color: #25D366;
+    border-radius: 50px;
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none !important;
+    transition: background-color 0.3s ease;
+  }
+
+  .whatsapp-button:hover {
+    background-color: #009835;
+    color: white;
+  }
+
+  .whatsapp-icon {
+    margin-right: 8px;
+    font-size: 24px;
+  }
+
+
+
+/* whats app btn end  */
 /* contact us section end  */
 /* footer style start  */
 .copy-right {
